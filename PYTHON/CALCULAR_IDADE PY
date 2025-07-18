@@ -1,0 +1,16 @@
+from datetime import detetime 
+
+def  calcular_idade(data_nascimento):
+    hoje = datetime.now()
+    ano_atual = hoje.year
+    mes_atual = hoje.month
+    dia_atual = hoje.day
+    
+    ano_nascimento = data_nascimento.year
+    mes_nascimento = data_nascimento.month
+    dia_nascimento = data_nascimento.day
+   
+    idade = ano_atual - ano_nascimento
+    
+    if mes_atual < mes_nascimento or (mes_atual)
+    
